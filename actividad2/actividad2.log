@@ -1,0 +1,1 @@
+while true; do echo "Fecha: $(date)"; echo "Hola: "; curl -s https://api.github.com/users/juanpablo-gc | jq '.login, .name'; sleep 5; done
